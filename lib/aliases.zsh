@@ -33,4 +33,7 @@ alias la='ls -lA'
 alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
-
+alias rake='noglob rake'
+alias bin/rake='noglob bin/rake'
+alias tmux='TERM=screen-256color-bce tmux'
+alias be='bundle exec'
